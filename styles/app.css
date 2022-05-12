@@ -1,0 +1,43 @@
+body {
+  background-color: antiquewhite;
+  box-sizing: border-box;
+  display: flexbox;
+}
+
+h1,h2 {
+    text-align: center;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+img {
+  display: block;
+  height: auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+a:hover {
+  color: grey;
+}
+
+table,th,td {
+    border: black solid 2px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}

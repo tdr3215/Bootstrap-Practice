@@ -49,10 +49,19 @@ img {
   filter: drop-shadow(0 -6mm 4mm rgba(0, 0, 0, 0.253));
 }
 
+.content {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
 .food-img {
-  position: relative;
+ /* width: 100%;
   text-align: center;
   margin-right: 0;
+  height: 30%; */
 }
 
 .food-description {
@@ -98,6 +107,7 @@ form {
 footer {
   position: relative;
   height: 1rem;
+  margin-top: 10px;
 }
 
 footer ul {

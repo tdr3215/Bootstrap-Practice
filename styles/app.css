@@ -2,6 +2,7 @@ body {
   background-color: antiquewhite;
   box-sizing: border-box;
   display: flexbox;
+  font-family: "Space Mono", monospace;
 }
 
 .navbar {
@@ -16,7 +17,6 @@ body {
   color: rgba(0, 0, 0, 0.795);
 }
 
-/* NAVBAR MENU */
 .menu {
   display: flex;
   gap: 0.5em;
@@ -34,11 +34,11 @@ body {
 h1,
 h2 {
   text-align: center;
+  font-family: "Lato", sans-serif;
 }
 
 div {
   display: flex;
-  
   justify-content: space-around;
   align-items: center;
 }
@@ -46,10 +46,25 @@ div {
 img {
   display: block;
   height: auto;
+  filter: drop-shadow(0 -6mm 4mm rgba(0, 0, 0, 0.253));
+}
+
+.food-img {
+  position: relative;
+  text-align: center;
+  margin-right: 0;
+}
+
+.food-description {
+  text-align: center;
+  height: 200px;
+  border: black 1px dotted;
+  margin-top: 20px;
+  width: 100%;
 }
 
 a {
-  display: inline
+  display: inline;
   color: black;
   text-decoration: none;
 }
@@ -68,9 +83,16 @@ td {
   border: black solid 2px;
 }
 
+.form {
+  display: block;
+  text-align: center;
+}
+
 form {
-  display: flex;
-  flex-direction: column;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
 }
 
 footer {
@@ -82,7 +104,6 @@ footer ul {
   position: relative;
   width: 100%;
   padding-left: 0;
-
 }
 
 footer div {

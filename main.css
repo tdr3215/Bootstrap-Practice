@@ -1,5 +1,18 @@
 body {
   background-color: antiquewhite;
+  font-family: "Space Mono", monospace;
+}
+
+.navbar a {
+  font-family: "Lato", sans-serif;
+}
+
+.nav-link {
+  color: rgba(0, 0, 0, 0.795);
+}
+
+.navbar-dark {
+  background-color: hsla(60, 70%, 87%, 0.775);
 }
 
 /* body {

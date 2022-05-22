@@ -4,57 +4,62 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Space+Mono&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
-    />
     <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet/scss" href="custom.scss" />
     <title>My Favorite Restaurants</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/iron_age.html">Iron Age</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
-          </ul>
-        </div>
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+      <a href="#" class="navbar-brand">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-center"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a href="/index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="/iron_age.html" class="nav-link"> Iron Age </a>
+          </li>
+          <li class="nav-item">
+            <a href="/teriyaki.html" class="nav-link"> Teriyaki Box </a>
+          </li>
+          <li class="nav-item">
+            <a href="/vortex.html" class="nav-link"> The Vortex </a>
+          </li>
+          <li class="nav-item">
+            <a href="/my_kitchen.html" class="nav-link"> My Kitchen </a>
+          </li>
+        </ul>
       </div>
     </nav>
     <div class="container">
       <div class="row">
-        <div class="col-md"></div>
-        <div class="col-md"></div>
-        <div class="col-md"></div>
+        <div class="col-md">hi</div>
+        <div class="col-md">hi</div>
+        <div class="col-md">hi</div>
       </div>
     </div>
     <!-- <h1>Welcome to My Favorite Restaurants in Metro Atlanta</h1>

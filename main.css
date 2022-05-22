@@ -1,10 +1,13 @@
-body {
-  background-color: antiquewhite;
-  box-sizing: border-box;
-  display: flexbox;
-  font-family: "Space Mono", monospace;
+.bg-light {
+  background-color: aquamarine;
 }
 
+/* body {
+  background-color: antiquewhite;
+
+  font-family: "Space Mono", monospace;
+} */
+/* 
 .navbar {
   display: flex;
   align-items: center;
@@ -107,11 +110,11 @@ footer ul {
   position: relative;
   width: 100%;
   padding-left: 0;
-}
+} */
 
-footer div {
-  /* height: 75px; */
-  position: relative;
+/* footer div { */
+/* height: 75px; */
+/* position: relative;
   width: 100%;
   background-color: hsla(60, 100%, 25%, 0.3);
-}
+} */

@@ -7,13 +7,13 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-.nav-link {
-  color: rgba(0, 0, 0, 0.795);
+.navbar-light {
+  background-color: hsla(60, 100%, 25%, 0.3);
 }
 
-/* .navbar-dark {
-  background-color: hsla(60, 70%, 87%, 0.775);
-} */
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.795);
+}
 
 /* body {
   background-color: antiquewhite;

@@ -1,5 +1,5 @@
 body {
-  background-color: antiquewhite;
+  background-color: #faebd7;
   font-family: "Space Mono", monospace;
 }
 
@@ -14,15 +14,40 @@ body {
 }
 
 .navbar-light {
-  background-color: hsla(60, 100%, 25%, 0.3);
+  background-color: rgba(128, 128, 0, 0.3);
 }
 
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.795);
 }
 
-.col-3 {
-  text-align: center;
+.col-md {
+  align-items: center;
+}
+
+.card {
+  width: 75%;
+}
+
+.card-img-top {
+  height: 407px;
+}
+
+.card-body {
+  background-color: #ae725bb3;
+}
+
+.btn-primary,
+.btn-primary:visited {
+  background-color: #9c7160;
+  border-color: rgba(0, 0, 0, 0.795);
+  color: rgba(0, 0, 0, 0.795);
+}
+
+.btn-primary:hover {
+  background-color: #9d887f;
+  border-color: rgba(0, 0, 0, 0.548);
+  color: rgba(0, 0, 0, 0.795);
 }
 
 /* body {

@@ -13,12 +13,17 @@ body {
   font-family: inherit;
 }
 
-.navbar-light {
+.navbar-light,
+footer {
   background-color: rgba(128, 128, 0, 0.3);
 }
 
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.795);
+}
+
+.bg-light {
+  background-color: rgba(128, 128, 0, 0.3);
 }
 
 .col-md {
@@ -47,6 +52,10 @@ body {
 .btn-primary:hover {
   background-color: #9d887f;
   border-color: rgba(0, 0, 0, 0.548);
+  color: rgba(0, 0, 0, 0.795);
+}
+
+footer {
   color: rgba(0, 0, 0, 0.795);
 }
 

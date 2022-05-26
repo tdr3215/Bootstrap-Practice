@@ -1,2 +1,2 @@
-import { bootstrap } from "node_modules";
-import { jquery } from "node_module";
+import "bootstrap/dist/css/bootstrap.css";
+import "jquery/dist/jquery/jquery.min.js";

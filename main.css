@@ -3,6 +3,11 @@ body {
   font-family: "Space Mono", monospace;
 }
 
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
 .navbar-brand {
   font-family: "Lato", sans-serif;
   margin-right: 0;
@@ -12,6 +17,9 @@ body {
 .nav-link {
   font-family: inherit;
 }
+img {
+  height: fit-content ;
+}
 
 .navbar-light,
 footer {
@@ -20,10 +28,6 @@ footer {
 
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.795);
-}
-
-.bg-light {
-  background-color: rgba(128, 128, 0, 0.3);
 }
 
 .col-md {

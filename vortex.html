@@ -5,59 +5,127 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Vortex</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Space+Mono&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/My-Fave-Restaurant/styles/app.css" />
+    <link rel="stylesheet" href="/main.css" />
   </head>
   <body>
-    <h1>Welcome to My Favorite Restaurants in Metro Atlanta</h1>
-    <nav class="navbar">
-      <!-- LOGO -->
-      <ul class="nav-links">
-        <div class="menu">
-          <li><a href="/My-Fave-Restaurant/index.html">Home</a></li>
-          <li><a href="/My-Fave-Restaurant/iron_age.html">Iron Age</a></li>
-          <li class="services">
-            <a href="/My-Fave-Restaurant/vortex.html">The Vortex</a>
+    <nav class="navbar navbar-expand-xl navbar-light">
+      <a href="#" class="navbar-brand mr-0">Metro Atlanta Eats</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-center"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a href="/index.html" class="nav-link">Home</a>
           </li>
-          <li><a href="/My-Fave-Restaurant/teriyaki.html">Teriyaki Box</a></li>
-          <li><a href="/My-Fave-Restaurant/my_kitchen.html">My Kitchen</a></li>
-        </div>
-      </ul>
-    </nav>
-    <h3>
-      <a href="https://thevortexatl.com/" target="_blank">Zombie Apocalypse Burger</a>
-    </h3>
-
-    <hr />
-    <div class="food-img">
-      <img src="/My-Fave-Restaurant/images/zombie.jpeg" alt="penguin gif" />
-    </div>
-    <div class="food-description">
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit
-        excepturi ut quod distinctio assumenda nisi in. Dolorum iusto pariatur
-        eaque ipsa exercitationem deserunt delectus! Iure fugiat laborum nemo
-        adipisci quidem.
-      </p>
-    </div>
-    <footer>
-      <div>
-        <ul class="nav-links">
-          <div class="menu">
-            <li><a href="/My-Fave-Restaurant/index.html">Home</a></li>
-            <li><a href="/My-Fave-Restaurant/iron_age.html">Iron Age</a></li>
-            <li class="services">
-              <a href="/My-Fave-Restaurant/vortex.html">The Vortex</a>
-            </li>
-            <li><a href="/My-Fave-Restaurant/teriyaki.html">Teriyaki Box</a></li>
-            <li><a href="/My-Fave-Restaurant/my_kitchen.html">My Kitchen</a></li>
-          </div>
+          <li class="nav-item">
+            <a href="/iron_age.html" class="nav-link"> Iron Age </a>
+          </li>
+          <li class="nav-item">
+            <a href="/teriyaki.html" class="nav-link"> Teriyaki Box </a>
+          </li>
+          <li class="nav-item">
+            <a href="/vortex.html" class="nav-link"> The Vortex </a>
+          </li>
+          <li class="nav-item">
+            <a href="/my_kitchen.html" class="nav-link"> My Kitchen </a>
+          </li>
         </ul>
+      </div>
+    </nav>
+
+    <h1>The Vortex Recommendations</h1>
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <!-- Drink -->
+
+        <div class="col-md">
+          <div class="card mx-auto">
+            <img
+              src="/images/bloozeberry.jpeg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Bloozeberry Cocktail</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Provident doloremque pariatur ratione dolor, recusandae eligendi
+                hic cumque consequuntur similique nesciunt ad expedita vel
+                facere ipsum fugit veniam odio. Perferendis, ipsum?
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Food -->
+        <div class="col-md">
+          <div class="card mx-auto">
+            <img src="/images/zombie.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Zombie Apocalypse Burger</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Provident doloremque pariatur ratione dolor, recusandae eligendi
+                hic cumque consequuntur similique nesciunt ad expedita vel
+                facere ipsum fugit veniam odio. Perferendis, ipsum?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center text-lg-start">
+      <div class="container p-4 mr-0 ml-0">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h5>About Us</h5>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
+              atque ea quis molestias. Fugiat pariatur maxime quis culpa
+              corporis vitae repudiandae aliquam voluptatem veniam, est atque
+              cumque eum delectus sint!
+            </p>
+          </div>
+
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h5>Contact</h5>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
+              atque ea quis molestias. Fugiat pariatur maxime quis culpa
+              corporis vitae repudiandae aliquam voluptatem veniam, est atque
+              cumque eum delectus sint!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2022 Copyright:
+        <a class="text-dark" href="#">tr.com</a>
       </div>
     </footer>
   </body>
